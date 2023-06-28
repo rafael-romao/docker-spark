@@ -1,6 +1,5 @@
 #!/usr/bin/make
 
-
 start: ## Start the Spark service
 	@docker compose -f ./docker/docker-compose.yml up --build -d --remove-orphans
 
